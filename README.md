@@ -49,6 +49,10 @@ Expect(beepBoop(0).toEqual([0]);
 Test: "It should return an array with the numbers preceding the number the user inputted"
 Expect(beepBoop(5)).toEqual([0,1,2,3,4,5]);
 
+Test: "It should replace any integer with the number 3 in it with "Won't you be my neighbor?"
+Expect:(beepBoop(4)).toEqual([0,1,2,Won't you be my neighbor?,4])
+
+
 
 
 ## Contact Information
