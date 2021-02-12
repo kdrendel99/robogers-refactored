@@ -9,9 +9,9 @@ function beepBoop(input){
       else if ((i+'').indexOf('1') > -1){
         console.log("beep")
       }
-    else {console.log(i)}; }
+    else {console.log(i)};
+    }
   }
-
 
   $(document).ready(function() {
     $("#robotRogers").submit(function(event) {
