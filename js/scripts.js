@@ -11,3 +11,13 @@ function beepBoop(input){
       }
     else {console.log(i)}; }
   }
+
+
+  $(document).ready(function() {
+    $("#robotRogers").submit(function(event) {
+      const input = parseInt($("input#number").val());
+      // console.log(year);
+      console.log(beepBoop(input));
+      event.preventDefault();
+    })
+  })
