@@ -43,14 +43,17 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 ## Specs 
 Describe: beepBoop()
 
-Test: "It should return an array with a 0 if the number 0 is inputted"
-Expect(beepBoop(0).toEqual([0]);
+Test: "It should return 0 if the number 0 is inputted"
+Expect(beepBoop(0).toEqual(0);
 
-Test: "It should return an array with the numbers preceding the number the user inputted"
-Expect(beepBoop(5)).toEqual([0,1,2,3,4,5]);
+Test: "It should return with the numbers preceding the number the user inputted"
+Expect(beepBoop(5)).toEqual(0,1,2,3,4,5);
 
-Test: "It should replace any integer with the number 3 in it with "Won't you be my neighbor?"
-Expect:(beepBoop(4)).toEqual([0,1,2,Won't you be my neighbor?,4])
+Test: "It should replace the number 3 with "Won't you be my neighbor?" **note - 'neighbor' was used to shorthand in this commit
+Expect:(beepBoop(4)).toEqual(0,1,2,Won't you be my neighbor?,4)
+
+Test: "It should replace every number containing the number 3 with "Won't you be my neighbor?"
+Expect: (beepBoop(14)).toEqual(0,1,2,WYBMN,4...11,12,WYBMN,14)
 
 
 
