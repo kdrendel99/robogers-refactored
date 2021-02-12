@@ -55,8 +55,11 @@ Expect:(beepBoop(4)).toEqual(0,1,2,Won't you be my neighbor?,4)
 Test: "It should replace every number containing the number 3 with "Won't you be my neighbor?"
 Expect: (beepBoop(14)).toEqual(0,1,2,WYBMN,4...11,12,WYBMN,14)
 
-Test: "It should replace every number containing 2 with "boop".
+Test: "It should replace every number containing 2 with 'boop'."
 Expect:(beepBoop(14)).toEqual(0,1,boop,neighbor,...,11,boop,neighbor,14)
+
+Test: "It should replace every number containing 1 with 'beep'."
+Expect: (beepBoop(14)).toEqual(0,beep,boop,neighbor,...,beep,boop,neighbor,beep).
 
 
 
