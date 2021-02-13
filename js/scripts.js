@@ -1,16 +1,28 @@
-function beepBoop(input){
+let outputString = "String test!"
+function beepBoop(input) {
+  outputString = ""
   for (i = 0; i <= input; i++) {
     if ((i+'').indexOf('3') > -1){
-      console.log("neighbor")
+      outputString += "neighbor"
+      outputString += "<br>"
     }
     else if ((i+'').indexOf('2') > -1){
-      console.log("boop")
+      outputString += "boop"
+      outputString += "<br>"
     }
       else if ((i+'').indexOf('1') > -1){
-        console.log("beep")
+        outputString += "beep"
+      outputString += "<br>"
       }
-    else {console.log(i)};
-    }
+    else {outputString += i
+      outputString += "<br>"};
+    }console.log(outputString);
+}
+
+function printBeepBoop(){
+  console.log("Test!");
+  console.log(outputString);
+    return outputString; 
   }
 
   $(document).ready(function() {
