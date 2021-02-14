@@ -1,44 +1,37 @@
-# _{Application Name}_
+# _Robotic Mr. Rogers Neighborhood_
 
-#### _{Brief description of application}_
+#### _This site's function is for me to practice coding in Javascript. Additonally, people may input a number that generates some fun results._
 
-#### By _**Cat Denton {List of contributors}**_
+#### By _**Karlson Drendel**_
 
 ## Technologies Used
 
-* _List all_
-* _the major technologies_
-* _you used in your project_
-* _here_
+* _HTML_
+* _CSS_
+* _Javascript_
+* _JQuery_
+* _Bootstrap_
+
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+_I've build this site for practice with user input in Javascript. This is one of the more complex projects I've built to date, and I anticipate adding on to it with my free time. Feel free to take the test, and check out some of the provided material for your result!_
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
-
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
+* _Open terminal_
+* _Create a desired directory to store repo clone using $ mkdir_
+* _Navigate to local directory in terminal and enter $ git clone https://github.com/kdrendel99/Code-Review-3.git_
+* _Use the '$ touch index.html' function to select, followed by '$ code .'_
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+_No bugs!_
 
 ## License
+_MIT License_
+_Copyright (c) 2021 Karlson Drendel_
 
-Copyright <YEAR> <COPYRIGHT HOLDER>
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ## Specs 
 Describe: beepBoop()
@@ -62,8 +55,7 @@ Test: "It should replace every number containing 1 with 'beep'."
 Expect: (beepBoop(14)).toEqual(0,beep,boop,neighbor,...,beep,boop,neighbor,beep).
 
 
-
-
 ## Contact Information
 
-_Karlson Drendel <kdrendel99@gmail.com>_
+_Karlson Drendel - (360)-553-8451_
+_[https://kdrendel99.github.io/portfolio-repo/]_
