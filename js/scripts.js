@@ -16,16 +16,18 @@ function beepBoop(input) {
     if (i < input) {
       outputString += ", "
     }
-  } console.log("penis!")
+  }
+  if (outputString != "") {
+    return outputString;
+  }
 }
 
 $(document).ready(function() {
   $("#robotRogers").submit(function(event) {
+    const input = parseInt($("input#number").val());
+    let outputString = beepBoop(input);
     event.preventDefault();
     $("#result").show();
-    const userinput = parseInt($("input#number").val((function(){
-      $('#result').append(outputString + "<br>");
-      console.log("FUCK")
-    })));
-  })
+    $('#result').text(outputString + "\n");
+  });
 })
